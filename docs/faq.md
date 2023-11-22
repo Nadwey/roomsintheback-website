@@ -2,6 +2,10 @@
 title: "Rooms In The Back FAQ"
 ---
 
+## Where are the builds??
+
+I'm not releasing any builds yet, because the game is not ready for that, and I don't want to disappoint people with a buggy mess.
+
 ## When will it be released?
 
 With the current speed and budget, probably never :D
