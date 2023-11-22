@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "@theme/Layout";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+import { IconHeartFilled } from "@tabler/icons-react";
 
 export default function Index() {
     return (
@@ -61,6 +62,29 @@ export default function Index() {
                         <div>
                             And there's not much more content currently in the game, but while you're here, you can check out the <a href="/blog">Blog</a> for updates on the game.
                         </div>
+                    </div>
+                    <div
+                        style={{
+                            height: "100vh",
+                        }}
+                        className="section"
+                    >
+                        <a
+                            className="donate-button"
+                            href="https://ko-fi.com/Nadwey"
+                            target="_blank"
+                        >
+                            <IconHeartFilled
+                                style={{
+                                    verticalAlign: "middle",
+                                    display: "inline-block",
+                                    color: "#ff0000",
+                                }}
+                                size={80}
+                                color="#ff0000"
+                            />{" "}
+                            Donate
+                        </a>
                     </div>
                 </div>
             </Layout>
