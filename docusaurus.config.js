@@ -59,7 +59,7 @@ const config = {
                         label: "Wiki",
                     },
                     {
-                        href: "https://github.com/facebook/docusaurus",
+                        href: "https://github.com/Nadwey/roomsintheback-website",
                         label: "GitHub",
                         position: "right",
                     },
