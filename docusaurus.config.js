@@ -69,6 +69,11 @@ const config = {
                 theme: prismThemes.github,
                 darkTheme: prismThemes.vsDark,
             },
+            colorMode: {
+                defaultMode: "dark",
+                // disableSwitch: true,
+                respectPrefersColorScheme: false,    
+            },
         }),
 
     markdown: {

@@ -5,3 +5,4 @@ sidebar_position: 0
 ---
 
 - [FAQ](./faq)
+- [Screenshots](./screenshots)
