@@ -4,7 +4,9 @@ title: "Rooms In The Back FAQ"
 
 ## Where are the builds??
 
-I'm not releasing any builds yet, because the game is not ready for that, and I don't want to disappoint people with a buggy mess.
+I'm not releasing any builds yet, because the game is not ready for that, and I don't want to disappoint people with a buggy mess and a lack of gameplay.
+
+I also don't want anymore testers, there just isn't enough content to test.
 
 ## When will it be released?
 
