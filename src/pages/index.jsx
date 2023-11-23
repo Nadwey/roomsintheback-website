@@ -39,52 +39,66 @@ export default function Index() {
                         className="section"
                     >
                         <span style={{ fontSize: "4rem", fontFamily: "inter", textAlign: "center" }}>
-                            Your new favourite <span className="backrooms-gradient">Backrooms</span> game
+                            Yet another <span className="backrooms-gradient">Backrooms</span> game
                         </span>
                     </div>
-                    <div
-                        style={{
-                            height: "100vh",
-                        }}
-                        className="section"
-                    >
-                        <img src="/img/friend.png" />
-                        <Parallax speed={20}>
-                            <span style={{ fontSize: "4rem", fontFamily: "inter", textAlign: "center" }}>Play with friends</span>
+                    <div className="section">
+                        <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
+                            <img className="section-image" src="/img/screenshots/level1-1.png" />
                         </Parallax>
                     </div>
-                    <div
-                        style={{
-                            height: "100vh",
-                        }}
-                        className="section"
-                    >
-                        <div>
-                            And there's not much more content currently in the game, but while you're here, you can check out the <a href="/blog">Blog</a> for updates on the game.
-                        </div>
+                    <div className="section">
+                        <Parallax easing="easeInOutSine" translateX={["2%", "-2%"]}>
+                            <img className="section-image" src="/img/screenshots/poolrooms-1.png" />
+                        </Parallax>
                     </div>
+                    <div className="section">
+                        <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
+                            <img className="section-image" src="/img/screenshots/level1-2.png" />
+                        </Parallax>
+                    </div>
+                    <Parallax
+                        style={{
+                            height: "100vh",
+                        }}
+                        className="section split-section"
+                        speed={-10}
+                    >
+                        <img src="/img/friend.png" />
+                        <span style={{ fontSize: "4rem", fontFamily: "inter", textAlign: "center" }}>
+                            <span className="friends-gradient">Play with friends</span>
+                        </span>
+                    </Parallax>
+                    <Parallax
+                        style={{
+                            height: "100vh",
+                        }}
+                        className="vertical-section"
+                        speed={20}
+                    >
+                        <span style={{ fontSize: "3rem", fontFamily: "inter", fontWeight: "normal", textAlign: "center", color: "#bbbbbb" }}>And more to come...</span>
+                        <a href="/docs/faq">FAQ</a>
+                    </Parallax>
                     <div
                         style={{
                             height: "100vh",
                         }}
                         className="section"
                     >
-                        <a
-                            className="donate-button"
-                            href="https://ko-fi.com/Nadwey"
-                            target="_blank"
-                        >
-                            <IconHeartFilled
-                                style={{
-                                    verticalAlign: "middle",
-                                    display: "inline-block",
-                                    color: "#ff0000",
-                                }}
-                                size={80}
-                                color="#ff0000"
-                            />{" "}
-                            Donate
-                        </a>
+                        <Parallax speed={-20}>
+                            <a className="donate-button" href="https://ko-fi.com/Nadwey" target="_blank">
+                                <IconHeartFilled
+                                    style={{
+                                        verticalAlign: "middle",
+                                        display: "inline-block",
+                                        color: "#ff0000",
+                                    }}
+                                    size={80}
+                                    color="#ff0000"
+                                />{" "}
+                                Donate
+                            </a>
+                        </Parallax>
                     </div>
                 </div>
             </Layout>

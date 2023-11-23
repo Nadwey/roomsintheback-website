@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700;900&display=swap");
 
+body {
+    overflow-x: hidden !important;
+}
+
 #__docusaurus {
     background-color: #000000;
 }
@@ -22,18 +26,34 @@
     align-items: center;
 }
 
-.section img {
+.section-image {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.vertical-section {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-section > * {
+    display: inline-block;
+}
+
+.split-section img {
     width: 40%;
 }
 
 /* mobile .section */
 @media (max-width: 1000px) {
-    .section {
+    .split-section {
         flex-direction: column;
         justify-content: center;
     }
 
-    .section img {
+    .split-section img {
         width: 90%;
     }
 }
@@ -41,6 +61,14 @@
 .backrooms-gradient {
     background: #cfcf00;
     background: linear-gradient(to bottom, #cfcf00 0%, #ffffff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.friends-gradient {
+    background: #00cfcf;
+    background: linear-gradient(to bottom, #8d00cf 0%, #ffffff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
