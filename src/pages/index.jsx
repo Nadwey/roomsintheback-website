@@ -95,7 +95,7 @@ export default function Index() {
                                     }}
                                     size={80}
                                     color="#ff0000"
-                                />{" "}
+                                />
                                 Donate
                             </a>
                         </Parallax>
