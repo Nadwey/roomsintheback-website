@@ -28,6 +28,7 @@ export default function Index() {
                                     width: "60vw",
                                     height: "80vh",
                                 }}
+                                alt="Rooms In The Back logo"
                                 src="/img/roomsintheback.svg"
                             />
                         </Parallax>
@@ -44,17 +45,17 @@ export default function Index() {
                     </div>
                     <div className="section">
                         <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
-                            <img className="section-image" src="/img/screenshots/level1-1.png" />
+                            <img alt="Level 1 in Rooms In The Back" className="section-image" src="/img/screenshots/level1-1.webp" />
                         </Parallax>
                     </div>
                     <div className="section">
                         <Parallax easing="easeInOutSine" translateX={["2%", "-2%"]}>
-                            <img className="section-image" src="/img/screenshots/poolrooms-1.png" />
+                            <img alt="Poolrooms in Rooms In The Back" className="section-image" src="/img/screenshots/poolrooms-1.webp" />
                         </Parallax>
                     </div>
                     <div className="section">
                         <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
-                            <img className="section-image" src="/img/screenshots/level1-2.png" />
+                            <img alt="Level 1 in Rooms In The Back" className="section-image" src="/img/screenshots/level1-2.webp" />
                         </Parallax>
                     </div>
                     <Parallax
@@ -64,7 +65,7 @@ export default function Index() {
                         className="section split-section"
                         speed={-10}
                     >
-                        <img src="/img/friend.png" />
+                        <img alt="Level 0 in Rooms In The Back, with 2 players visible" src="/img/friend.webp" />
                         <span style={{ fontSize: "4rem", fontFamily: "inter", textAlign: "center" }}>
                             <span className="friends-gradient">Play with friends</span>
                         </span>
