@@ -6,7 +6,7 @@ import { IconHeartFilled } from "@tabler/icons-react";
 export default function Index() {
     return (
         <ParallaxProvider>
-            <Layout title="Index page" description="Index page of Rooms In The Back website">
+            <Layout title="Index page" description="Rooms In The Back - Yet another backrooms game">
                 <div style={{ backgroundColor: "#000000", fontWeight: "bold", fontFamily: "inter", display: "flex", flexDirection: "column" }}>
                     <div
                         style={{
