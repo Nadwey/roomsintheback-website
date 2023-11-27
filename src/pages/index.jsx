@@ -14,14 +14,6 @@ export default function Index() {
                         }}
                         className="section"
                     >
-                        warning: this page is just a placeholder, things WILL change
-                    </div>
-                    <div
-                        style={{
-                            height: "100vh",
-                        }}
-                        className="section"
-                    >
                         <Parallax speed={-15}>
                             <img
                                 style={{
@@ -100,6 +92,14 @@ export default function Index() {
                                 Donate
                             </a>
                         </Parallax>
+                    </div>
+                    <div
+                        style={{
+                            height: "100vh",
+                        }}
+                        className="section"
+                    >
+                        warning: this page is just a placeholder, things WILL change
                     </div>
                 </div>
             </Layout>
