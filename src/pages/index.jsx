@@ -50,6 +50,16 @@ export default function Index() {
                             <img alt="Level 1 in Rooms In The Back" className="section-image" src="/img/screenshots/level1-2.webp" />
                         </Parallax>
                     </div>
+                    <div className="section">
+                        <Parallax easing="easeInOutSine" translateX={["2%", "-2%"]}>
+                            <img alt="Poolrooms in Rooms In The Back" className="section-image" src="/img/screenshots/poolrooms-2.webp" />
+                        </Parallax>
+                    </div>
+                    <div className="section">
+                        <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
+                            <img alt="Level 1 in Rooms In The Back" className="section-image" src="/img/screenshots/level1-3.webp" />
+                        </Parallax>
+                    </div>
                     <Parallax
                         style={{
                             height: "100vh",
