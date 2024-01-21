@@ -4,6 +4,16 @@ import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import { IconHeartFilled } from "@tabler/icons-react";
 
 export default function Index() {
+    function ParallaxSectionImage({ src, alt, ...props }) {
+        return (
+            <div className="section">
+                <Parallax easing="easeInOutSine" {...props}>
+                    <img alt={alt} className="section-image" src={src} />
+                </Parallax>
+            </div>
+        );
+    }
+
     return (
         <ParallaxProvider>
             <Layout title="Index page" description="Rooms In The Back - Yet another backrooms game">
@@ -35,31 +45,14 @@ export default function Index() {
                             Yet another <span className="backrooms-gradient">Backrooms</span> game
                         </span>
                     </div>
-                    <div className="section">
-                        <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
-                            <img alt="Level 1 in Rooms In The Back" className="section-image" src="/img/screenshots/level1-1.webp" />
-                        </Parallax>
-                    </div>
-                    <div className="section">
-                        <Parallax easing="easeInOutSine" translateX={["2%", "-2%"]}>
-                            <img alt="Poolrooms in Rooms In The Back" className="section-image" src="/img/screenshots/poolrooms-1.webp" />
-                        </Parallax>
-                    </div>
-                    <div className="section">
-                        <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
-                            <img alt="Level 1 in Rooms In The Back" className="section-image" src="/img/screenshots/level1-2.webp" />
-                        </Parallax>
-                    </div>
-                    <div className="section">
-                        <Parallax easing="easeInOutSine" translateX={["2%", "-2%"]}>
-                            <img alt="Poolrooms in Rooms In The Back" className="section-image" src="/img/screenshots/poolrooms-2.webp" />
-                        </Parallax>
-                    </div>
-                    <div className="section">
-                        <Parallax easing="easeInOutSine" translateX={["-2%", "2%"]}>
-                            <img alt="Level 1 in Rooms In The Back" className="section-image" src="/img/screenshots/level1-3.webp" />
-                        </Parallax>
-                    </div>
+
+                    <ParallaxSectionImage src="/img/screenshots/level0-0.png" alt="Level 0 in Rooms In The Back" translateX={["-2%", "2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/level0-1.png" alt="Level 0 in Rooms In The Back" translateX={["2%", "-2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/level1-0.png" alt="Level 1 in Rooms In The Back" translateX={["-2%", "2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/level1-1.png" alt="Level 1 in Rooms In The Back" translateX={["2%", "-2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/poolrooms-0.png" alt="Poolrooms in Rooms In The Back" translateX={["-2%", "2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/poolrooms-1.png" alt="Poolrooms in Rooms In The Back" translateX={["2%", "-2%"]} />
+
                     <Parallax
                         style={{
                             height: "100vh",
