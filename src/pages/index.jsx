@@ -48,10 +48,13 @@ export default function Index() {
 
                     <ParallaxSectionImage src="/img/screenshots/level0-0.png" alt="Level 0 in Rooms In The Back" translateX={["-2%", "2%"]} />
                     <ParallaxSectionImage src="/img/screenshots/level0-1.png" alt="Level 0 in Rooms In The Back" translateX={["2%", "-2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/level_pl2-0.png" alt="Level PL 2 in Rooms In The Back" translateX={["-2%", "2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/level_pl2-1.png" alt="Level PL 2 in Rooms In The Back" translateX={["2%", "-2%"]} />
                     <ParallaxSectionImage src="/img/screenshots/level1-0.png" alt="Level 1 in Rooms In The Back" translateX={["-2%", "2%"]} />
                     <ParallaxSectionImage src="/img/screenshots/level1-1.png" alt="Level 1 in Rooms In The Back" translateX={["2%", "-2%"]} />
                     <ParallaxSectionImage src="/img/screenshots/poolrooms-0.png" alt="Poolrooms in Rooms In The Back" translateX={["-2%", "2%"]} />
                     <ParallaxSectionImage src="/img/screenshots/poolrooms-1.png" alt="Poolrooms in Rooms In The Back" translateX={["2%", "-2%"]} />
+                    <ParallaxSectionImage src="/img/screenshots/level_pl7-0.png" alt="Level PL 7 in Rooms In The Back" translateX={["-2%", "2%"]} />
 
                     <Parallax
                         style={{
