@@ -8,8 +8,8 @@ const config = {
     tagline: "Rooms In The Back website and wiki",
     favicon: "img/favicon.ico",
 
-    url: "https://roomsintheback.com",
-    baseUrl: "/",
+    url: "https://nadwey.github.io/",
+    baseUrl: "/roomsintheback-website/",
 
     organizationName: "Nadwey",
     projectName: "roomsintheback-website",
